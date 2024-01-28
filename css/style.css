@@ -1,0 +1,9 @@
+pre {
+    background-color: #f5f5f5; /* Cambia esto por el color de fondo que prefieras */
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+    text-align: left; /* Alineación a la izquierda */
+}
