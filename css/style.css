@@ -19,3 +19,33 @@ code {
 code .hljs-keyword{
     color: #FF9800 !important;
 }
+
+code .hljs-type{
+    color: #09ff00 !important;
+}
+
+code .hljs-number{
+    color: #00BCD4 !important;
+}
+
+code .hljs-built_in{
+    color: #FFEB3B !important;
+}
+
+
+/*==========================================================================================*/
+/*Scrollbar*/
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--bs-blue);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+        /* roundness of the scroll thumb */
+    border: 3px solid var(--bs-blue);  /* creates padding around scroll thumb */
+  }
+/*==========================================================================================*/
